@@ -1,12 +1,10 @@
 
 
 class Point:
-    def __init__(self, a=(0,0)):
+    def __init__(self, str=(0,0)):
         str=input().split(',')
-        x=str[0]
-        y=str[1]
-        self.x = x
-        self.y = y
+        self.x = int(str[0])
+        self.y = int(str[1])
     def __str__(self):
         return '(' + self.x + ';' + self.y + ')'
     def __add__(self, other):
