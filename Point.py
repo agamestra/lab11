@@ -1,7 +1,7 @@
 
 
 class Point:
-    def __init__(self, str=(0,0)):
+    def __init__(self, x, y, str=(0,0)):
         str=input().split(',')
         self.x = int(str[0])
         self.y = int(str[1])
