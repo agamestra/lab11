@@ -1,5 +1,5 @@
 from Point import*
-N=input(int())
+N=input(int())-1
 max=Point(input())
 for i in range (N):
     a=Point(input())

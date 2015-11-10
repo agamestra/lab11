@@ -1,9 +1,10 @@
-str=input().split(',')
-x=str[0]
-y=str[1]
+
 
 class Point:
-    def __init__(self, x, y):
+    def __init__(self, a=(0,0)):
+        str=input().split(',')
+        x=str[0]
+        y=str[1]
         self.x = x
         self.y = y
     def __str__(self):
